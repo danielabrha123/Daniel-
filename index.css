@@ -1,0 +1,181 @@
+*{
+  
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url(background2.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  user-select: none;
+  
+
+}
+.main{
+  font-family: sans-serif;
+
+}
+.navbar{
+  margin: auto;
+  width: 97%; 
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  position: sticky;
+}
+.navbar .logo{
+  display: inline-block;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  top: 10px;
+}
+ul{
+  margin-top: -3%; 
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 3px 4px;
+}
+ul li a{
+  color: white;
+  background: hwb(231 14% 1% / 0.6313725490196078);
+  border-radius: 4px;
+  padding: 2px 3px;
+  cursor:pointer;
+  text-decoration: none;
+  transition: 4s ease;
+  font-weight: bold;
+}
+ul li a:hover{
+  background: hwb(231 8% 0% / 0.7686274509803922);
+  color: hwb(180 95% 4%);
+  font-size: 1.25rem;
+  border-radius: 4px;
+}
+ul li a:active{
+background: hwb(231 8% 0% / 0.7686274509803922);
+  color: hwb(180 95% 4%);
+  font-size: 1.25rem;
+  border-radius: 4px;
+}
+.info{
+  margin-top:8%;
+  margin-left: 3%;
+  color: hwb(0 99% 1%);
+}
+ span{
+  color: hwb(108 33% 11% / 0.9058823529411765);
+}
+.info a{
+  text-decoration: none;
+  border-radius: 8px;
+  color: white;
+  background: hwb(231 14% 1% / 0.6313725490196078);
+  padding: 10px 16px;
+  margin: 25px 0;
+  display: inline-block;
+  transition: 4s ease;
+}
+.info a:hover{
+  background: hwb(231 10% 3% / 0.7294117647058823);
+  color: hwb(0 98% 2%);
+  border-radius: 7px;
+  font-size: 1.15rem;
+}
+.info a:active{
+  background: hwb(231 10% 3% / 0.7294117647058823);
+  color: hwb(0 98% 2%);
+  border-radius: 7px;
+  font-size: 1.15rem;
+}
+ .info img{
+  width: 200px;
+  height: 343px;
+  border-radius: 10%;
+  float: right;
+  margin-right: 8px;
+  margin-top: -278px;
+   box-shadow:0 0 30px rgb(37, 137, 171);
+ }
+.about {
+  margin: 2%;
+}
+.about p {
+  color: white;
+}
+.about .image{
+  margin-right: 12px;
+  width:100px;
+  height: 150px;
+  border-radius: 10px;
+  float: left;
+  box-shadow: 0 0 50px hwb(148 35% 8%);
+}
+
+footer{
+  margin: 2%;
+  padding: 12px;
+  color: white;
+  text-align: center;
+  border: solid 1;
+  background: hwb(231 14% 1% / 0.6313725490196078);
+  border-radius: 8px;
+  box-shadow:0 0 30px rgba(47, 178, 252, 0.9686274509803922);
+}
+.skills{
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+}
+ h1{
+ color:hwb(194 36% 2% / 0.9764705882352941);
+  margin-top: 10px;
+   font-size: 3rem;
+  font-weight: bold;
+   text-align: center;
+}
+.card{
+  background: hwb(159 28% 2% / 0.6313725490196078);
+  border-radius: 8px;
+  padding: 14px 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 15px;
+}
+.icons{
+  margin-left: 3%;
+  margin-bottom: 15px;
+}
+.icons a i{
+  font-size: 30px;
+  padding-right: 8px;
+  color: hwb(204 20% 7%);
+  text-decoration: none;
+}
+.contact img{
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  margin-left: 3%;
+  margin-bottom: 10px;
+  border-radius:30px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.contact h1{
+  color:hwb(194 36% 2% / 0.9764705882352941);
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 3rem;
+  
+}
+.contact .contact_p {
+  color: white;
+  float: left;
+  margin: 40px;
+}
